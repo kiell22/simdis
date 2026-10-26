@@ -1,0 +1,36 @@
+# CI cache & sessions
+application/cache/*
+!application/cache/.htaccess
+!application/cache/index.html
+application/logs/*
+!application/logs/.htaccess
+!application/logs/index.html
+ci_sessions/
+
+# Upload files (data lokal)
+uploads/foto/*
+!uploads/foto/.htaccess
+!uploads/foto/default.png
+uploads/surat/*
+!uploads/surat/.htaccess
+!uploads/surat/index.php
+uploads/surat_masuk_luar/*
+
+# File debug & setup (tidak perlu di production)
+debug.php
+debug_distribusi.php
+debug_surat.php
+install.php
+migrate_password.php
+reset_password.php
+setup_user.php
+cek_session.php
+cek_upload.php
+test_login.php
+test_session.php
+
+# Folder tidak perlu
+user_guide/
+Thumbs.db
+*.zip
+Password.txt
